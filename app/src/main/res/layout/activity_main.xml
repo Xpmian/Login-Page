@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/resim"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/tasarim2">
+        
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:orientation="horizontal"
+            android:background="@drawable/tasarim1"/>
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="75dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center">
+            
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/face"
+                android:background="@drawable/tasarim4"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/insta"
+                android:background="@drawable/tasarim4"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/tw"
+                android:background="@drawable/tasarim4"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/you3"
+                android:background="@drawable/tasarim4"/>
+
+        </LinearLayout>
+        
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignLeft="@id/resim"
+            android:layout_alignTop="@id/resim"
+            android:src="@drawable/a3"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            tools:ignore="NotSibling"/>
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="140dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textStyle="italic"
+            android:text="Trabzonspor Kulübü Resmi Web Sitesi "
+            android:background="@drawable/tasarim3"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:background="@drawable/tasarim7"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="94dp"
+            android:gravity="center"
+            android:text="Sosyal Medya’da Bizi Takip Edin!"
+            android:textColor="@color/white"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="21dp"
+            android:text="© 2016-2023 Trabzonspor Kulübü Resmi Web Sitesidir.
+            Web sitesinde bulunan yazılı ve görsel içerik izinsiz başka"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginRight="97dp"
+            android:gravity="center"
+            android:text="bir yayın organında yayınlanamaz."
+            android:textColor="@color/white"
+            android:textStyle="italic" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/giris"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/tasarim5">
+
+        <EditText
+            android:id="@+id/Tctxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="40dp"
+            android:ems="10"
+            android:hint="Tc Kimlik Numarası"
+            android:inputType="numberSigned"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:drawableRight="@drawable/baseline_person_24"/>
+
+        <EditText
+            android:id="@+id/Sifreeeeeeee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="100dp"
+            android:ems="10"
+            android:hint="Şifre"
+            android:inputType="textPassword"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:drawableRight="@drawable/baseline_vpn_key_24"/>
+
+        <Button
+            android:id="@+id/buttonkayit"
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="170dp"
+            android:background="@drawable/tasarim8"
+            android:text="Kayıt"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/hesapvar"
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="162dp"
+            android:layout_marginTop="170dp"
+            android:background="@drawable/tasarim8"
+            android:text="Giriş"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
